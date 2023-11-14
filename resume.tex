@@ -89,6 +89,14 @@
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
+    % \end{tabular*}\vspace{0pt}
+}
+
+\newcommand{\resumeAwardHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-10pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -173,16 +181,16 @@
     \resumeProjectHeading
         {\textbf{Aculca} (\href{https://aculca.com/}{aculca.com}) $|$ \emph{ML, LLM, SEO, FastAPI, React}}{2023}
         \resumeItemListStart
-          \resumeItem{Implemented machine learning algorithms for automated content creation, including text and layout structuring}
-          \resumeItem{Utilized AI for optimizing SEO metadata and generating images, enhancing online visibility}
-          \resumeItem{Spearheaded the overall development and integration of AI capabilities into the Aculca platform}
+          \resumeItem{Implementation of AI tools for \underline{100\% automation} of the platform: from content to content grid}
+          \resumeItem{Setting up \underline{SEO} and \underline{SSR} for the FrontEnd}
+          \resumeItem{\underline{FullStack development} of the platform and website}
         \resumeItemListEnd
     \resumeProjectHeading
         {\textbf{Methods of user discussions analysis in Web 2.0} $|$ \emph{NLP, LSA/LDA, Bots}}{2020}
         \resumeItemListStart
-          \resumeItem{Handled user discussion retrieval and processed texts using natural language processing techniques}
-          \resumeItem{Analyzed and formed discussion topics, employing advanced analytical methods}
-          \resumeItem{Developed heat maps and tracked the dynamics of user engagement by topic}
+          \resumeItem{\underline{Searching and extracting} user discussions on social media}
+          \resumeItem{\underline{Sentiment analysis}, relationship mapping, and topic extraction}
+          \resumeItem{Building heat maps and \underline{visualizing discussion graphs}}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -190,27 +198,33 @@
 %-----------AWARDS-----------
 \section{Awards}
   \resumeSubHeadingListStart
-    \resumeProjectHeading
+    \resumeAwardHeading
         {\textbf{Junction} $|$ \underline{Final}, Finland}{2019}
         % \resumeItemListStart
         %   \resumeItem{Project: Emotional support service}
         % \resumeItemListEnd
-    \resumeProjectHeading
+    \resumeAwardHeading
         {\textbf{Hack Zurich} $|$ \underline{TOP 25}, Switzerland}{2019}
         % \resumeItemListStart
         %   \resumeItem{Project: Municipal organization of tourist flows}
         % \resumeItemListEnd
-    \resumeProjectHeading
+    \resumeAwardHeading
         {\textbf{Wrike Work, Unleashed Contest} $|$ \underline{TOP 2}, Czech}{2019}
         % \resumeItemListStart
         %   \resumeItem{Project: ExTensy, Extension to improve coordination of work}
         % \resumeItemListEnd
-    \resumeProjectHeading
+    \resumeAwardHeading
         {\textbf{Hackdays Rhein-Main} $|$ \underline{TOP 4}, Germany}{2019}
         % \resumeItemListStart
         %   \resumeItem{Project: Application for optimizing work in offices}
         % \resumeItemListEnd
+    \resumeAwardHeading
+        {\textbf{Malta Blockchain Summit} $|$ \underline{TOP 3}, Malta}{2018}
+        % \resumeItemListStart
+        %   \resumeItem{Project: Ethereum smart contracts for the DAO.Casino platform}
+        % \resumeItemListEnd
   \resumeSubHeadingListEnd
+\vspace{0pt}
 
 
 %-----------SKILLS-----------
