@@ -71,7 +71,8 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      % \textbf{#1} & #2 \\
+      \small#1 & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -124,11 +125,11 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {St. Petersburg University (SPBU)}{St. Petersburg, Russia}
-      {Bachelor of Applied Mathematics and Control Processes}{Aug. 2016 -- Jul. 2020}
+      {\textbf{St. Petersburg University} (SPBU)}{Aug. 2016 -- Jul. 2020}
+      {Bachelor of \underline{Applied Mathematics} and Control Processes}{St. Petersburg, Russia}
     \resumeSubheading
-      {Moscow Institute of Physics and Technology (MIPT)}{Moscow, Russia}
-      {Qualification in Machine Learning and Data Analysis}{Aug. 2017 -- Jul. 2018}
+      {\textbf{Moscow Institute of Physics and Technology} (MIPT)}{Aug. 2017 -- Jul. 2018}
+      {Qualification in \underline{Machine Learning} and Data Analysis}{Moscow, Russia}
   \resumeSubHeadingListEnd
 
 
@@ -137,40 +138,30 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {CTO}{Feb. 2022 -- Jun. 2023 (1 year 5 months)}
-      {Styletyx}{StartUp}
+      {\textbf{CTO} $|$ Styletyx (\href{https://styletyx.com/}{styletyx.com})}{Feb. 2022 -- Jun. 2023}
+      {1 year 5 months}{USA StartUp}
       \resumeItemListStart
-        \resumeItem{Development of an asynchronous ORM system for managing frequently changing data}
-        \resumeItem{Development of a web platform and launching it in the US market}
-        \resumeItem{Setting up auto-deployment and migrating architecture to AWS}
+        \resumeItem{Development of an \underline{asynchronous ORM} system for managing frequently changing data}
+        \resumeItem{Development of a \underline{web platform} and launching it in the US market}
+        \resumeItem{Setting up \underline{auto-deployment} and migrating architecture to AWS}
       \resumeItemListEnd
 
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
     \resumeSubheading
-      {Software Engineer III}{Apr. 2021 -- Jul. 2022 (1 year 4 months)}
-      {Yandex}{Moscow, Russia}
+      {\textbf{Software Engineer III} $|$ Yandex (\href{https://yandex.com/}{yandex.com})}{Apr. 2021 -- Jul. 2022}
+      {1 year 4 months}{Moscow, Russia}
       \resumeItemListStart
-        \resumeItem{Development of a courier management service and shift scheduling}
-        \resumeItem{Development of the WMS back office}
-        \resumeItem{Setting up health metrics and responsible service monitoring}
+        \resumeItem{Development of a \underline{courier management service} and shift scheduling}
+        \resumeItem{Development of the \underline{WMS back office}}
+        \resumeItem{Setting up \underline{health metrics} and responsible service monitoring}
     \resumeItemListEnd
 
     \resumeSubheading
-      {Co-Founder \& CTO}{Jul. 2018 -- Jan. 2022 (3 years 7 months)}
-      {Tensy}{Tallinn, Estonia}
+      {\textbf{Co-Founder \& CTO} $|$ Tensy (\href{https://tensy.org/}{tensy.org})}{Jul. 2018 -- Jan. 2022}
+      {3 years 7 months}{Tallinn, Estonia}
       \resumeItemListStart
-        \resumeItem{Development of an MVP for an educational platform}
-        \resumeItem{User custom development and feature implementation}
-        \resumeItem{Managing a development team of 4 people}
+        \resumeItem{Development of an MVP for an \underline{educational platform}}
+        \resumeItem{User \underline{custom development} and feature implementation}
+        \resumeItem{\underline{Managing} a development team of 4 people}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -180,7 +171,7 @@
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeProjectHeading
-        {\textbf{aculca} $|$ \emph{ML, LLM, SEO, FastAPI, React}}{2023}
+        {\textbf{Aculca} (\href{https://aculca.com/}{aculca.com}) $|$ \emph{ML, LLM, SEO, FastAPI, React}}{2023}
         \resumeItemListStart
           \resumeItem{Implemented machine learning algorithms for automated content creation, including text and layout structuring}
           \resumeItem{Utilized AI for optimizing SEO metadata and generating images, enhancing online visibility}
@@ -200,15 +191,25 @@
 \section{Awards}
   \resumeSubHeadingListStart
     \resumeProjectHeading
-        {\textbf{Junction} $|$ \emph{Final, Finland}}{2019}
-        \resumeItemListStart
-          \resumeItem{Project: Emotional support service}
-        \resumeItemListEnd
+        {\textbf{Junction} $|$ \underline{Final}, Finland}{2019}
+        % \resumeItemListStart
+        %   \resumeItem{Project: Emotional support service}
+        % \resumeItemListEnd
     \resumeProjectHeading
-        {\textbf{Hack Zurich} $|$ \emph{TOP 25, Switzerland}}{2019}
-        \resumeItemListStart
-          \resumeItem{Project: Municipal organization of tourist flows}
-        \resumeItemListEnd
+        {\textbf{Hack Zurich} $|$ \underline{TOP 25}, Switzerland}{2019}
+        % \resumeItemListStart
+        %   \resumeItem{Project: Municipal organization of tourist flows}
+        % \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{Wrike Work, Unleashed Contest} $|$ \underline{TOP 2}, Czech}{2019}
+        % \resumeItemListStart
+        %   \resumeItem{Project: ExTensy, Extension to improve coordination of work}
+        % \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{Hackdays Rhein-Main} $|$ \underline{TOP 4}, Germany}{2019}
+        % \resumeItemListStart
+        %   \resumeItem{Project: Application for optimizing work in offices}
+        % \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -218,8 +219,8 @@
     \small{\item{
      \textbf{Languages}{: Python, JavaScript, HTML/CSS} \\
      \textbf{DataBases}{: PostgreSQL, MongoDB} \\
-     \textbf{Frameworks}{: FastAPI, Flask, AIOHTTP, React, NextJS} \\
-     \textbf{Technologies}{: Redis, NGINX, Messenger Bots, Parsers, REST API, JSON-RPC, Long Polling, Webhook, asyncio, WebSockets, Redux, BAsh, *nix} \\
+     \textbf{Frameworks}{: FastAPI, Flask, AIOHTTP, Redis, React, NextJS, Redux} \\
+     \textbf{Technologies}{: NGINX, Messenger Bots, Parsers, REST API, JSON-RPC, Long Polling, Webhook, asyncio, WebSockets, Bash, *nix} \\
      \textbf{Developer Tools}{: Git, GitHub Actions, Docker, Docker Swarm} \\
      \textbf{Libraries}{: Pandas, NumPy, Scikit-Learn, TensorFlow, Keras, Transformers, Matplotlib}
     }}
